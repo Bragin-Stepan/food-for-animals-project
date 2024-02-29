@@ -1,0 +1,16 @@
+@use 'sass:math';
+
+// Подключение стилей блоков и секций
+@import 'components/Button/button';
+@import 'components/Button/favorite';
+@import 'components/Button/add';
+@import 'components/Button/remove';
+@import 'components/Button/close';
+@import 'components/Button/bigButton';
+
+@import 'components/Header/header';
+@import 'components/Card/card';
+@import 'components/Search/search';
+@import 'components/PromotionCarousel/promotionCarousel';
+@import 'components/Sidebar/sidebar';
+@import 'components/CartItem/cartItem';

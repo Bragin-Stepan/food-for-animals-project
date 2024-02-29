@@ -1,0 +1,30 @@
+.cart-item {
+  border: 1px solid #f0f0f0;
+  border-radius: 12px;
+  width: 400px;
+  height: 120px;
+
+  .img-container {
+    width: 100px;
+    height: 100px;
+  }
+
+  .cart-item__description {
+    height: 76px;
+    overflow: hidden;
+  }
+
+  p {
+    font-size: 13px;
+    margin-top: 9px;
+    margin-bottom: 2px;
+  }
+  b {
+    font-size: 13px;
+  }
+  &:hover {
+    transform: translate(0, -2px);
+    transition: all 250ms;
+    box-shadow: 0 0 13px rgba(205, 85, 0, 0.056);
+  }
+}

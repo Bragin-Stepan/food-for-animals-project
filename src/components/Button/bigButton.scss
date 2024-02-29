@@ -1,0 +1,20 @@
+.big-button {
+  background: var(--main-color);
+  color: white;
+  font-size: 17px;
+  border: 0;
+  border-radius: 8px;
+  width: 280px;
+  height: 40px;
+  transition: background 0.1s ease-in-out;
+  position: relative;
+
+  &:hover {
+    box-shadow: 0 0 3px rgb(255, 123, 41);
+  }
+  &:active {
+    box-shadow: 0 0 5px rgba(255, 98, 0, 0.512);
+    font-size: 17px;
+    background: var(--main-color-darker);
+  }
+}

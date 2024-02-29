@@ -1,0 +1,18 @@
+.button-unfavorite {
+  position: absolute;
+  margin-left: 8px;
+  margin-top: 8px;
+  background: #e0e0e009;
+  &:hover {
+    svg {
+      color: var(--main-color);
+    }
+  }
+}
+.button-favorite {
+  background-color: #ffd3da5b;
+  transition: 0.3s;
+  svg {
+    color: #ff0000;
+  }
+}

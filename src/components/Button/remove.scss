@@ -1,0 +1,12 @@
+.button-remove {
+  &:hover {
+    background: #999999;
+    color: #ffffff;
+    transition: color 0.1s ease-out;
+    transition: background 0.1s ease-out;
+  }
+  &:active {
+    background: #838383;
+    color: var(--main-color);
+  }
+}

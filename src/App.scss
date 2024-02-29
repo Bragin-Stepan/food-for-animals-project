@@ -1,0 +1,45 @@
+#root {
+  font-family: 'Gilroy', sans-serif; // Семейство шрифта по умолчанию
+
+  --main-color: #ff8e1d; // Цвет по умолчанию
+  --main-color-darker: #e87502;
+  --secondary-color: #7841f0;
+  --dark-color: linear-gradient(
+    90deg,
+    rgba(63, 54, 226, 1) 0%,
+    rgba(192, 71, 224, 1) 100%
+  );
+  --light-color: #f2d8ff;
+  --white-color: #fff;
+  --black-color: #131313;
+
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  h2 {
+    font-size: 30px;
+    font-weight: 400;
+  }
+}
+
+body {
+  background-color: var(--white-color);
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+section {
+  padding: 20px 0;
+}
+
+.category {
+  font-size: inherit;
+  font-weight: 400;
+  font-size: 33px;
+}

@@ -1,0 +1,31 @@
+.card {
+  width: 200px;
+  height: 360px;
+  margin-bottom: 40px;
+  border: none;
+  .img-container {
+    width: 200px;
+    height: 200px;
+  }
+
+  p {
+    font-size: 13px;
+    height: 78px;
+    overflow: hidden;
+  }
+
+  &:hover {
+    transform: translate(0, -4px);
+    transition: all 250ms;
+    box-shadow: 0 0 13px rgba(205, 85, 0, 0.056);
+  }
+}
+// ?????
+//.button-add :active {
+//   .card {
+//     transform: scale(1);
+//     margin-top: 0;
+//     transform: translate(0, -10px);
+//     transition: all 0.2s;
+//   }
+// }
