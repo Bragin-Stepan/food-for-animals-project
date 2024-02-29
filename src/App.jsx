@@ -33,7 +33,7 @@ export default function App() {
     setCartItems(prev => [...prev, obj]);
   };
 
-  // Убираем из корзины
+  // Убираемт из корзины
   const onRemoveItem = id => {
     axios.delete(`https://65c76c06e7c384aada6e81f4.mockapi.io/cart/${id}`);
     setCartItems(prev => prev.filter(item => item.id !== id));
